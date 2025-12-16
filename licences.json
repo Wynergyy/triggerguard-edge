@@ -1,0 +1,72 @@
+[
+  {
+    "licenceId": "TG-7F2B498DA43A9DA3",
+    "product": "TriggerGuard – Edge Request Control Licence",
+    "tier": "PILOT",
+    "status": "ACTIVE",
+    "customerEmail": "customer@company.com",
+    "paymentReference": "TIDE-REF-XXXX",
+    "issuedAt": "2025-12-14T17:48:26.197Z",
+    "expiresAt": "2026-01-13T17:48:26.197Z",
+    "issuer": "Wynergy Fibre Solutions Ltd",
+    "integrity": {
+      "hash": "01de50296854f8c77f2ebf9a5d0efe12c9dcd98d49738748fc90f45a27d2a937"
+    }
+  },
+  {
+    "licenceId": "TG-07116D19ADA3A94E",
+    "product": "TriggerGuard – Edge Request Control Licence",
+    "tier": "PILOT",
+    "status": "ACTIVE",
+    "customerEmail": "org@company.com",
+    "paymentReference": "CONTRACT-REF",
+    "issuedAt": "2025-12-14T17:50:28.312Z",
+    "expiresAt": "2026-01-13T17:50:28.312Z",
+    "issuer": "Wynergy Fibre Solutions Ltd",
+    "integrity": {
+      "hash": "9570f3b57c43990219b5bdbe169e4bfd15e296cd7125de66768cbeede2b63d47"
+    }
+  },
+  {
+    "licenceId": "TG-AAD996AE38EB89EA",
+    "product": "TriggerGuard – Edge Request Control Licence",
+    "tier": "PILOT",
+    "status": "ACTIVE",
+    "customerEmail": "org@company.com",
+    "paymentReference": "CONTRACT-REF",
+    "issuedAt": "2025-12-14T17:54:13.241Z",
+    "expiresAt": "2026-01-13T17:54:13.241Z",
+    "issuer": "Wynergy Fibre Solutions Ltd",
+    "integrity": {
+      "hash": "15e0ad1500b4682c6b175df3af6b3bf0a2b7ba8d71d77811b33513d7a30a0e04"
+    }
+  },
+  {
+    "licenceId": "TG-ACBD2B87D7802797",
+    "product": "TriggerGuard – Edge Request Control Licence",
+    "tier": "PILOT",
+    "status": "ACTIVE",
+    "customerEmail": "org@company.com",
+    "paymentReference": "CONTRACT-REF",
+    "issuedAt": "2025-12-14T17:54:43.128Z",
+    "expiresAt": "2026-01-13T17:54:43.128Z",
+    "issuer": "Wynergy Fibre Solutions Ltd",
+    "integrity": {
+      "hash": "35065f1ee2d9e5b9dfbabd3851bac9da9b285942a42c0bbc9277b7a0488743e7"
+    }
+  },
+  {
+    "licenceId": "TG-FD1820BDA81A8F76",
+    "product": "TriggerGuard – Edge Request Control Licence",
+    "tier": "SENTINEL_PLUS",
+    "status": "ACTIVE",
+    "customerEmail": "org@company.com",
+    "paymentReference": "CONTRACT-REF",
+    "issuedAt": "2025-12-14T17:57:10.936Z",
+    "expiresAt": "2026-01-13T17:57:10.936Z",
+    "issuer": "Wynergy Fibre Solutions Ltd",
+    "integrity": {
+      "hash": "d7eaf8b4a729cdf37b1294a527dafd4b5227ca3c7303dc365a8988f39da00b4a"
+    }
+  }
+]

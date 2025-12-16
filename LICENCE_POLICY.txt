@@ -1,0 +1,90 @@
+TRIGGERGUARD LICENCE DURATION AND RENEWAL POLICY
+
+Issuer
+Wynergy Fibre Solutions Ltd
+Company Number: 16082183
+Registered Office: 5 Brayford Square, London, England, E1 0SG
+
+---
+
+1. LICENCE TERM
+
+All TriggerGuard licences are issued for a fixed, time-limited term.
+
+Unless explicitly stated otherwise in writing:
+• Standard Pilot licences are valid for 30 days
+• Sentinel+ licences are valid for 30 days during pilot phase
+
+The licence expiry timestamp is embedded in the licence payload and enforced at runtime.
+
+Licences do not auto-renew.
+
+---
+
+2. RENEWAL PROCESS
+
+Licence renewal requires:
+• A new payment reference or approved contract reference
+• Issuance of a new licence identifier
+• A new cryptographic integrity hash
+
+Renewals are treated as new licence issuances.
+
+Previous licences expire automatically and cannot be extended or reactivated.
+
+---
+
+3. EXPIRY BEHAVIOUR
+
+On expiry:
+• Runtime enforcement MUST reject the licence
+• The licence status is considered TERMINATED
+• No grace period is assumed unless explicitly granted in writing
+
+Expired licences cannot be used for production workloads.
+
+---
+
+4. NO PERPETUAL LICENCES
+
+TriggerGuard licences are not perpetual.
+
+No licence grants lifetime access, indefinite use, or unlimited duration.
+
+All access is conditional on an active, time-bounded licence.
+
+---
+
+5. UPGRADE PATHS
+
+Licence tiers are discrete.
+
+Upgrading from Pilot to Sentinel+ requires:
+• A new licence issuance
+• A new tier designation
+• A new integrity hash
+
+Tier upgrades do not modify or extend existing licences.
+
+---
+
+6. AUDIT AND VERIFICATION
+
+Licence validity may be verified by:
+• Timestamp inspection
+• Integrity hash validation
+• Issuer confirmation
+
+Wynergy Fibre Solutions Ltd reserves the right to revoke licences issued in error or obtained fraudulently.
+
+---
+
+7. POLICY CHANGES
+
+This policy may be updated between versions.
+
+Policy changes do not retroactively modify already-issued licences unless required by law.
+
+---
+
+End of Policy

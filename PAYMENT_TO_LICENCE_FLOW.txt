@@ -1,0 +1,197 @@
+PAYMENT → LICENCE FLOW
+
+TriggerGuard – Wynergy Fibre Solutions Ltd
+Authoritative Commercial & Audit Process
+
+1. Purpose
+
+This document defines the authoritative, auditable process linking customer payment to TriggerGuard licence issuance.
+It removes ambiguity, prevents false sales, and mirrors enterprise SaaS practice used by major vendors.
+
+This process applies to:
+
+TriggerGuard Pilot
+
+TriggerGuard Sentinel+
+
+Future TriggerGuard tiers
+
+2. Parties and Responsibilities
+
+Customer
+
+Completes payment via authorised Tide payment link
+
+Provides a valid business email address
+
+Tide (Payment Provider)
+
+Processes payment
+
+Issues payment confirmation and reference
+
+Acts as the financial record of sale
+
+Does not issue licences
+
+Wynergy Fibre Solutions Ltd
+
+Licence authority and issuer
+
+Maintains licence ledger
+
+Sends official licence communications
+
+Enforces expiry and renewal
+
+TriggerGuard System
+
+Generates deterministic licences
+
+Verifies licences at runtime
+
+Enforces expiry and tier controls
+
+3. Authoritative Flow (Live Sales)
+
+Customer completes payment via Tide payment link
+
+Tide generates:
+
+Payment confirmation
+
+Unique payment reference
+
+Payment reference is treated as proof of entitlement
+
+Licence is issued using:
+
+Customer email
+
+Payment reference
+
+Product tier
+
+Licence is recorded in the authoritative licence ledger
+
+Customer receives:
+
+Licence confirmation email
+
+Licence details
+
+Expiry date
+
+Verification instructions
+
+Renewal schedule is activated
+
+No licence exists without a valid payment reference.
+
+4. Test and Internal Issuance Rules
+
+To prevent false sales:
+
+Test licences must not use live Tide references
+
+Test references must be clearly marked:
+
+TEST-REF-*
+
+INTERNAL-*
+
+Test licences:
+
+Are excluded from revenue reporting
+
+May use shortened expiry
+
+Must never be shared externally
+
+Live customer licences must always reference a real Tide or contract reference.
+
+5. Licence Characteristics
+
+Each licence includes:
+
+Unique licence ID
+
+Product name
+
+Tier (Pilot, Sentinel+, etc.)
+
+Status (Active, Expired, Revoked)
+
+Customer email
+
+Payment reference
+
+Issue timestamp
+
+Expiry timestamp
+
+Cryptographic integrity hash
+
+Issuer identity
+
+Licences are time-limited by default.
+No lifetime licences are issued unless explicitly defined by contract.
+
+6. Expiry and Renewal
+
+Pilot licences default to fixed-term duration
+
+Sentinel+ licences follow contract terms
+
+Renewal notices are issued prior to expiry
+
+Expired licences:
+
+Fail verification
+
+Are rejected at runtime
+
+Require renewal to reactivate
+
+7. Automation Boundary (Future)
+
+Current state:
+
+Manual issuance using deterministic tooling
+
+Future state (planned):
+
+Tide webhook ingestion
+
+Automatic licence issuance
+
+Automated email delivery
+
+Automated renewal reminders
+
+This document remains authoritative regardless of automation level.
+
+8. Audit and Integrity
+
+This flow ensures:
+
+Clear financial → entitlement linkage
+
+Deterministic licence generation
+
+Verifiable audit trail
+
+Enterprise-grade compliance posture
+
+This mirrors accepted practice across major SaaS vendors.
+
+9. Authority Statement
+
+Wynergy Fibre Solutions Ltd is the sole licensing authority for TriggerGuard.
+
+All licences are issued under UK law by:
+
+Wynergy Fibre Solutions Ltd
+Company No. 16082183
+Registered Office:
+5 Brayford Square, London, England, E1 0SG

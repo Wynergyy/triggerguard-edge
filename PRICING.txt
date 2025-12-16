@@ -1,0 +1,19 @@
+TriggerGuard is licensed on a commercial basis according to deployment context and operational scale.
+
+Pricing is intentionally simple and conversation-led rather than tier-heavy or feature-gated.
+
+Typical engagement models include:
+
+• Proof-of-concept or evaluation licence  
+• Single-environment production deployment  
+• Multi-environment or platform-wide deployment  
+
+Pricing is determined by factors such as deployment scope, traffic characteristics, and operational requirements.
+
+TriggerGuard is positioned as an infrastructure control component rather than a per-user or per-seat product.
+
+All commercial terms are provided directly by Wynergy Fibre Solutions Ltd.
+
+For pricing discussions, technical clarification, or evaluation access, please contact:
+
+sales.wynergy.co.uk

@@ -1,0 +1,134 @@
+TRIGGERGUARD – LICENCE REVOCATION AND ENFORCEMENT POLICY
+
+Issuer:
+Wynergy Fibre Solutions Ltd
+Company Number: 16082183
+Registered Office:
+5 Brayford Square, London, England, E1 0SG
+
+Effective Date:
+14 December 2025
+
+
+1. PURPOSE
+
+This policy defines the conditions under which a TriggerGuard licence may be
+suspended, revoked, or allowed to expire, and how enforcement is applied at
+runtime.
+
+TriggerGuard is a deterministic control system. Licensing enforcement is
+explicit, predictable, and non-discretionary.
+
+
+2. LICENCE STATES
+
+A TriggerGuard licence may exist in one of the following states:
+
+- ACTIVE
+- SUSPENDED
+- REVOKED
+- EXPIRED
+
+State transitions are irreversible except where explicitly stated.
+
+
+3. SUSPENSION CONDITIONS
+
+A licence may be SUSPENDED under the following conditions:
+
+- Payment dispute or chargeback under investigation
+- Temporary breach of usage limits
+- Administrative review requested by the licensee
+- Pending renewal beyond the grace period
+
+During suspension:
+- Runtime enforcement remains active
+- Requests are denied with a deterministic licence error
+- No data is modified or destroyed
+
+Suspension may be lifted at the issuer’s discretion following resolution.
+
+
+4. REVOCATION CONDITIONS
+
+A licence will be REVOKED if any of the following occur:
+
+- Confirmed non-payment or fraudulent payment reference
+- Licence key sharing or unauthorised redistribution
+- Circumvention or tampering with TriggerGuard enforcement
+- Use of TriggerGuard in violation of applicable law
+- Material breach of licence terms
+
+Revocation is permanent.
+
+Once revoked:
+- The licence cannot be reinstated
+- A new licence requires a new commercial agreement
+
+
+5. EXPIRY AND NON-RENEWAL
+
+Licences expire automatically at the stated expiry timestamp.
+
+If renewal payment is not received:
+- Licence enters EXPIRED state
+- Runtime enforcement denies all requests
+- No grace period applies unless contractually agreed
+
+Expired licences are not considered revoked.
+
+
+6. RUNTIME ENFORCEMENT BEHAVIOUR
+
+At runtime, TriggerGuard MUST:
+
+- Verify licence integrity hash
+- Verify licence state
+- Verify current timestamp against expiry
+
+Behaviour by state:
+
+ACTIVE:
+- Normal operation
+
+SUSPENDED:
+- Deterministic deny with suspension reason
+
+REVOKED:
+- Deterministic deny with revocation code
+- No retries permitted
+
+EXPIRED:
+- Deterministic deny with renewal instruction
+
+
+7. AUDIT AND EVIDENCE
+
+All licence state changes MUST be:
+
+- Logged deterministically
+- Persisted in the authoritative licence ledger
+- Hash-linked to the previous state
+
+These records form part of the TriggerGuard audit trail.
+
+
+8. APPEALS AND REVIEW
+
+Revocation decisions are final unless:
+- A demonstrable issuer error occurred, or
+- A court or regulator requires review
+
+Support enquiries may be submitted to:
+licensing@wfsl.uk
+
+
+9. GOVERNANCE
+
+This policy is part of the TriggerGuard licensing framework and is enforced
+programmatically.
+
+Manual overrides are not permitted except by company directors.
+
+
+END OF DOCUMENT

@@ -1,0 +1,36 @@
+TriggerGuard Sentinel+ Licence
+
+Product:
+TriggerGuard Sentinel+ – Advanced Edge Request Control
+
+Description:
+Sentinel+ is the enterprise-grade edition of TriggerGuard, designed for organisations operating high-risk, high-availability, or regulated edge environments.
+
+It extends the core deterministic request enforcement of TriggerGuard Pilot with enhanced assurance, extended licence duration, and contractual suitability.
+
+Key Characteristics:
+- Deterministic request enforcement at the network edge
+- Explicit behavioural constraints with no adaptive ambiguity
+- Suitable for regulated, audited, and high-pressure environments
+- Contract-ready licensing with traceable integrity hashes
+
+Intended Use:
+- Production APIs
+- Telecoms and network ingress points
+- Regulated platforms
+- Enterprise and government deployments
+
+Licence Model:
+- Time-limited licence
+- Contract or invoice based
+- Sentinel+ tier enforcement at runtime
+
+Issuer:
+Wynergy Fibre Solutions Ltd
+Company Number: 16082183
+Registered Office:
+5 Brayford Square, London, E1 0SG
+
+Contact:
+sales@wfsl.uk
+licensing@wfsl.uk

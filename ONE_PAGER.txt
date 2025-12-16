@@ -1,0 +1,11 @@
+TriggerGuard is a deterministic request control component designed to operate at the network edge.
+
+It provides predictable enforcement of request behaviour before application logic is reached, reducing risk and uncertainty at exposed ingress points.
+
+TriggerGuard is built for environments where latency, trust boundaries, and operational pressure demand clarity rather than adaptive or opaque security mechanisms.
+
+The product enables operators to define and enforce explicit behavioural constraints, ensuring that only conforming requests are allowed to progress into core systems.
+
+TriggerGuard is suitable for use in distributed platforms, exposed APIs, edge compute environments, and high-pressure network entry points.
+
+It is developed and maintained by Wynergy Fibre Solutions Ltd as part of its core platform architecture.

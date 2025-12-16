@@ -1,0 +1,17 @@
+Subject: Re: Deterministic request control at the edge
+
+Hello,
+
+I wanted to briefly follow up on my previous message regarding TriggerGuard.
+
+TriggerGuard is a deterministic edge control component designed to provide predictable enforcement of request behaviour before application logic is reached.
+
+If this is not currently a priority, no problem at all. If it is relevant, I would be happy to provide a short technical overview or discuss potential deployment scenarios.
+
+Kind regards,
+
+Paul Wynn  
+Director  
+
+Wynergy Fibre Solutions Ltd  
+sales@wynergy.co.uk

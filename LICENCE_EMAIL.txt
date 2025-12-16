@@ -1,0 +1,51 @@
+Subject: TriggerGuard Licence Issued – Wynergy Fibre Solutions Ltd
+
+Dear {{CustomerName}},
+
+Thank you for your purchase.
+
+Your TriggerGuard licence has now been issued under the details below.
+
+Licence details
+----------------
+Product: TriggerGuard – Edge Request Control Licence (Pilot)
+Licence ID: {{LicenceId}}
+Tier: Pilot
+Issued: {{IssuedDate}}
+Expiry: {{ExpiryDate}}
+
+Licensed to
+------------
+{{CustomerEmail}}
+
+Issuer
+------
+Wynergy Fibre Solutions Ltd
+Company Number: 16082183
+Registered Office:
+5 Brayford Square
+London
+E1 0SG
+United Kingdom
+
+This licence grants the right to deploy TriggerGuard within the scope of the Pilot licence terms for the duration specified above.
+
+The licence will expire automatically on the stated expiry date and must be renewed to continue operation.
+
+Next steps
+----------
+• Integrate TriggerGuard into your edge or gateway environment
+• Retain this email for audit and compliance purposes
+• Contact us if you require Sentinel+ or extended licensing
+
+Contact
+-------
+Sales and licensing enquiries:
+sales@wfsl.uk
+
+Thank you for choosing Wynergy Fibre Solutions Ltd.
+
+Kind regards,
+
+Licensing Team  
+Wynergy Fibre Solutions Ltd

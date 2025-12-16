@@ -1,0 +1,56 @@
+TriggerGuard Licence Renewal Notice
+
+Issuer:
+Wynergy Fibre Solutions Ltd
+Company Number: 16082183
+Registered Office:
+5 Brayford Square
+London
+E1 0SG
+United Kingdom
+
+---
+
+Licence Details:
+Product: TriggerGuard – Edge Request Control Licence
+Tier: {{TIER}}
+Licence ID: {{LICENCE_ID}}
+
+Current Status: {{STATUS}}
+Expiry Date: {{EXPIRY_DATE}}
+Days Remaining: {{DAYS_REMAINING}}
+
+---
+
+Action Required:
+
+Your TriggerGuard licence is approaching expiry.
+
+To ensure uninterrupted service and continued licence validity, renewal must be completed before the expiry date shown above.
+
+If renewal is not completed:
+• Standard licences will expire and be rejected at runtime.
+• Sentinel+ licences will enter a short grace period before enforcement.
+
+---
+
+Renewal Options:
+
+• Renew existing licence
+• Upgrade to Sentinel+ for extended protection and priority enforcement
+• Discuss enterprise or multi-licence agreements
+
+---
+
+Renewal Contact:
+sales@wfsl.uk
+
+Payment and renewal references must include:
+Licence ID and organisation name.
+
+---
+
+This notice is generated as part of TriggerGuard’s deterministic licensing system.
+No adaptive or discretionary enforcement is applied.
+
+© Wynergy Fibre Solutions Ltd
