@@ -1,33 +1,52 @@
-# PAMI
+# TriggerGuard Sentinel (Edge)
 
-Predictive & Autonomous Mapping Intelligence (PAMI)
+## Purpose
+TriggerGuard Sentinel is the runtime observation and normalisation layer for edge and hosted environments.
 
-This repository contains the **public-facing UI and enrolment surface** for PAMI.
-
-## Scope
-- Investor-facing demonstration
-- Deterministic build
-- Static UI routes
-- No production logic
-
-## Routes
-- `/pami/enrol` – enrolment and positioning surface
-
-## Build Rules
-1. `package.json` must exist at repo root
-2. `app/layout.tsx` is mandatory
-3. Run in order:
-   ```bash
-   npm install
-   npm run build
-   npm start
-
-Save and close.
+It captures execution context and platform constraints and emits structured, deterministic observations.
+It never decides. It never classifies faults.
 
 ---
 
-### 4. **Final verification (do not skip)**
+## Determinism Guarantee
+- Sentinel observes only.
+- No heuristics.
+- No policy logic.
+- Same runtime conditions produce the same observation output.
 
-```powershell
-npm run build
-npm start
+---
+
+## Canonical Fault Model
+Sentinel does not emit faults.
+All downstream fault classification conforms to the WFSL Canonical Fault Model.
+
+Reference:
+https://github.com/Wynergy-Fibre-Solutions/wfsl-core/blob/main/docs/faults.md
+
+---
+
+## Evidence Standard
+All Sentinel outputs are:
+- Deterministic
+- Reproducible
+- Attributable
+- Suitable for cryptographic sealing downstream
+
+---
+
+## Verification
+This repository includes evidence scripts to demonstrate:
+- Stable observation output
+- Environment normalisation
+- Sealed execution proof
+
+
+
+---
+
+Run:
+
+## Expansion Policy
+Sentinel expands only to support new runtimes.
+No decision logic is introduced here.
+
